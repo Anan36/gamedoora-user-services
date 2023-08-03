@@ -1,0 +1,256 @@
+[33mcommit 05729369caf2686899eca9c52fef4511e331c2aa[m[33m ([m[1;36mHEAD[m[33m, [m[1;31morigin/unitTest[m[33m)[m
+Author: Ayushi Parikh <mailayushi15@gmail.com>
+Date:   Tue Jul 4 11:33:49 2023 +0530
+
+    Changing the UsersRepository methods and test cases
+    
+    Refining the repository methods and the related tests
+
+[33mcommit 44af661b9b947fbcb60511ffaac512abe5539356[m
+Merge: 2eb1210 272f9b4
+Author: Ayushi Parikh <mailayushi15@gmail.com>
+Date:   Tue Jul 4 11:12:33 2023 +0530
+
+    Merge branch 'unitTest' of github.com:Korra15/gamedoora-user-services into unitTest
+
+[33mcommit 2eb1210e5aab8f1bc6a5ab2618044707bb1b1c08[m
+Author: Ayushi Parikh <mailayushi15@gmail.com>
+Date:   Tue Jul 4 11:12:26 2023 +0530
+
+    Adding repository methods for the SKillsRepository
+
+[33mcommit 272f9b4e5923ccf2fef67c4deeea0cc2e8c9f5bf[m
+Merge: ac10720 b54abb1
+Author: Ayushi Parikh <68647827+Korra15@users.noreply.github.com>
+Date:   Tue Jul 4 11:10:45 2023 +0530
+
+    Merge branch 'gamedoora:main' into unitTest
+
+[33mcommit ac10720650e9f5caa779829b34702e81a659ebee[m
+Author: Ayushi Parikh <mailayushi15@gmail.com>
+Date:   Sun Jul 2 10:45:07 2023 +0530
+
+    Commenting the test case and updating pom.xml to
+    resolve merge conflicts
+
+[33mcommit b54abb1f214bdfe7c721e0a2c7dd85562ec826a8[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Arko <47105136+arkaprovob@users.noreply.github.com>
+Date:   Sun Jul 2 11:00:13 2023 +0530
+
+    This commit introduces the necessary CI/CD files for building and deploying the project on Amazon EC2. Additionally, a new job has been added to publish artifacts to GitHub's package repository. Several related changes have been made to support the CI/CD pipeline for packaging and deployment purposes. (#27)
+
+[33mcommit 09b82c12801c7d47e908a779a62736fe692b5ab0[m
+Merge: c3d1cc7 210839f
+Author: Ayushi Parikh <mailayushi15@gmail.com>
+Date:   Sun Jul 2 10:40:42 2023 +0530
+
+    Merge branch 'unitTest' of github.com:Korra15/gamedoora-user-services into unitTest
+
+[33mcommit c3d1cc7439854b9e2c188d917068e10bc0758e83[m
+Author: Ayushi Parikh <mailayushi15@gmail.com>
+Date:   Sat Jul 1 10:08:52 2023 +0530
+
+    Adding Unit Test for UsersRepository
+
+[33mcommit 210839f7e18e8f947ab6b686343b934883e7c175[m
+Merge: e7e6a0c 04e54ff
+Author: Ayushi Parikh <mailayushi15@gmail.com>
+Date:   Sun Jul 2 10:05:45 2023 +0530
+
+    Merge branch 'main' into unitTest
+
+[33mcommit e7e6a0cd7e02db466d35d0797a9bd7e4ccf46768[m
+Author: Ayushi Parikh <mailayushi15@gmail.com>
+Date:   Sat Jul 1 22:45:54 2023 +0530
+
+    Adding test case for finding role by skill
+
+[33mcommit 90ffcdcc53eda78661efc927bc25334ccf730eaf[m
+Author: Ayushi Parikh <mailayushi15@gmail.com>
+Date:   Sat Jul 1 22:10:37 2023 +0530
+
+    Adding unit Test cases for UsersRepository
+
+[33mcommit 9750e6577edd46804a8d682ca55f73e1000bf19a[m
+Author: Ayushi Parikh <mailayushi15@gmail.com>
+Date:   Sat Jul 1 22:35:11 2023 +0530
+
+    Revert "Adding unit Test cases for UsersRepository"
+    
+    This reverts commit 4ef531a5a9040eeda3a4249c58f7126c0c54dc6a.
+
+[33mcommit 4ef531a5a9040eeda3a4249c58f7126c0c54dc6a[m
+Author: Ayushi Parikh <mailayushi15@gmail.com>
+Date:   Sat Jul 1 22:10:37 2023 +0530
+
+    Adding unit Test cases for UsersRepository
+
+[33mcommit 04e54ffea162b1440c583f9251f8614637233fc6[m
+Author: A.P.Rajshekhar <ap.rajshekhar@gmail.com>
+Date:   Sat Jul 1 18:14:38 2023 +0530
+
+    Closes #13 and #24: Add functionality to reset password in User API (#26)
+    
+    * Closes  (#8 ) Create response entity is created in controller itself rather than assembler for Roles API
+    
+    * Initial commit
+    
+    * User operations stub
+    
+    * Closes #13: Add functionality to reset password in User API
+    
+    * Closes #13: Add functionality to reset password in User API
+
+[33mcommit 603042c1b65af8b15b28b575bb7803073f39453d[m
+Author: Ayushi Parikh <mailayushi15@gmail.com>
+Date:   Sat Jul 1 15:55:56 2023 +0530
+
+    New changes
+
+[33mcommit 785c67915ae79417b48940912cc311cad66b03f4[m
+Author: Ayushi Parikh <mailayushi15@gmail.com>
+Date:   Sat Jul 1 10:08:52 2023 +0530
+
+    Unit Test on UsersRepositorie
+
+[33mcommit 337f44e4c22cb8a2fa7d488eb5f1bb0d88225bb7[m
+Author: Picksitquick <66877821+picksitquick@users.noreply.github.com>
+Date:   Fri Jun 30 12:14:56 2023 +0530
+
+    Feature/dto (#25)
+    
+    * added DTO mapper for Users Model
+    
+    * added auto generated DTOs, and APIs are now returning DTOs
+    
+    * adding mapper for different models and making sure API return only DTOs
+    
+    * tried refactoring user-service and model repos
+    
+    * added new DTOs for the db models
+    
+    * added DAO to DTO Mappers but having problem in package initialization, hence in compilation.
+    
+    * Moved mapper and DTOs to gamedoora-model
+    
+    * refactoring packages
+    
+    * minor refactoring
+    
+    * added configs for running the application
+    
+    * changed private fields to setter based autowiring
+
+[33mcommit 78d9c6cecd747a2f96a1498973b634f63ea439fb[m
+Author: A.P.Rajshekhar <ap.rajshekhar@gmail.com>
+Date:   Mon May 1 17:22:07 2023 +0530
+
+    Update set_privileges.sh
+
+[33mcommit cd9af766fcc031a60335002f24ddbb5f0a1f63d4[m
+Author: A.P.Rajshekhar <ap.rajshekhar@gmail.com>
+Date:   Mon May 1 17:11:43 2023 +0530
+
+    Update appspec.yml
+
+[33mcommit e9b9aeb2356bac2c0f3402d9f2cc580a61792011[m
+Author: A.P.Rajshekhar <ap.rajshekhar@gmail.com>
+Date:   Mon May 1 16:59:38 2023 +0530
+
+    Update appspec.yml
+
+[33mcommit cb7f770a2c1278f658071dfb8b42a560b7f3c112[m
+Author: A.P.Rajshekhar <ap.rajshekhar@gmail.com>
+Date:   Mon May 1 16:49:21 2023 +0530
+
+    Update set_privileges.sh
+
+[33mcommit 223dc53ce859a81d1ecdfc9c4612950343b8e374[m
+Author: A.P.Rajshekhar <ap.rajshekhar@gmail.com>
+Date:   Mon May 1 16:22:36 2023 +0530
+
+    Update set_privileges.sh
+
+[33mcommit f79dbc596856db4dcfb03565863109d40ba43253[m
+Author: A.P.Rajshekhar <ap.rajshekhar@gmail.com>
+Date:   Sat Apr 29 09:10:55 2023 +0530
+
+    Update appspec.yml
+
+[33mcommit 808738230971ee8d1c75a6663cdb8bf077c4ecd5[m
+Author: A.P.Rajshekhar <ap.rajshekhar@gmail.com>
+Date:   Fri Apr 28 18:39:26 2023 +0530
+
+    Update appspec.yml
+
+[33mcommit 75eb390cec0ddf8d61feac5f957d39ff3f46b983[m
+Author: A.P.Rajshekhar <ap.rajshekhar@gmail.com>
+Date:   Fri Apr 28 17:46:28 2023 +0530
+
+    Update buildspec.yml
+
+[33mcommit a3f9be1b97c00197dcc84b93aeeaec24b74abbf0[m
+Author: A.P.Rajshekhar <ap.rajshekhar@gmail.com>
+Date:   Fri Apr 28 17:42:31 2023 +0530
+
+    Update buildspec.yml
+
+[33mcommit 01736a200df5ed068912996808db77388f0d4f85[m
+Author: A.P.Rajshekhar <ap.rajshekhar@gmail.com>
+Date:   Fri Apr 28 17:35:56 2023 +0530
+
+    Create buildspec.yml (#18)
+    
+    * Create buildspec.yml
+    
+    * Create appspec.yml
+    
+    * Create service_stop.sh
+    
+    * Create set_privileges.sh
+    
+    * Create clear_artifacts.sh
+    
+    * Create service_start.sh
+    
+    * Update appspec.yml
+    
+    * Update buildspec.yml
+    
+    * Update buildspec.yml
+
+[33mcommit 0865d82cba74a3c00877a8370f52c6a73f714816[m
+Author: A.P.Rajshekhar <ap.rajshekhar@gmail.com>
+Date:   Fri Feb 17 14:43:38 2023 +0530
+
+    Updated for codebuild
+
+[33mcommit feb036f46362d41310cf030fed5d565e74bfb756[m
+Author: A.P.Rajshekhar <ap.rajshekhar@gmail.com>
+Date:   Fri Feb 17 14:42:25 2023 +0530
+
+    Create settings.xml
+
+[33mcommit 9232b9646a5f5b95bd3e8806fae48af418df963f[m
+Author: A.P.Rajshekhar <ap.rajshekhar@gmail.com>
+Date:   Sun Jan 8 11:46:15 2023 +0530
+
+    Closes #11 (#16)
+    
+    * Closes  (#8 ) Create response entity is created in controller itself rather than assembler for Roles API
+    
+    * Resolves #11 API changes for Swagger
+
+[33mcommit deeb0ca0b922ab70d5f1f539e15e16f807f94e83[m
+Author: A.P.Rajshekhar <ap.rajshekhar@gmail.com>
+Date:   Sun Oct 9 09:40:10 2022 +0530
+
+    Closes  (#8 ) Create response entity is created in controller itself rather than assembler for Roles API (#15)
+
+[33mcommit 38e2de55f256dfe187d0a6a2c73914bc070b2b3c[m
+Author: A.P.Rajshekhar <ap.rajshekhar@gmail.com>
+Date:   Sun Sep 11 22:17:26 2022 +0530
+
+    Closes  (#8 ) Create response entity is created in controller itself rather than assembler for Roles API (#9)
+
+[33mcom

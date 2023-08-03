@@ -18,14 +18,14 @@ public interface UsersRepository extends JpaRepository<Users, Long> {
 
 	List<Users> findByEmailContaining(String name);
 
-	Users findByName(String name);
-	Users findByRole(UserRole role);
+	Users findByFirstName(String name);
+	Users findByUserRole(UserRole role);
 
-	Users findBySkill(UserSkills skill);
+	Users findByUserSkills(UserSkills skill); // Users findBySkill(UserSkills skill);
 
-	List<UserRole> findRolesBySkill_SkillsId(Long skillsId);
+	List<UserRole> findRolesByuserSkills_SkillsId(Long skillsId);
 	// multiple roles with one skill
 
-	List<Users> listUsersBySkill_SkillsId(Long skillsId);
+	List<Users> findByUserSkills_SkillsId(Long skillsId);;//List<Users> listUsersBySkill_SkillsId(Long skillsId);
 
 }
